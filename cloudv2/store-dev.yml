@@ -11,5 +11,8 @@ spring:
           instances:
             order[0]:
               uri: "http://localhost:8082"
+    loadbalancer:
+      ribbon:
+        enable: false
 server:
   port: 8081
